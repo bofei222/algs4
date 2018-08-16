@@ -21,6 +21,7 @@ hs_err_pid*
 .m2
 
 # Build output directies
+src/main/resources
 build/
 /target
 
