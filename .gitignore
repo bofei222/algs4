@@ -25,6 +25,8 @@ build/
 /target
 
 ### Eclipse project file ###
+src/main/resources
+
 .metadata
 .classpath
 .project
