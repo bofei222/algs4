@@ -42,7 +42,8 @@ public class Stack<Item> {
     }
 
     public static void main(String[] args) {
-        Stack<String> s = new Stack<>();
+//        Stack<String> s = new Stack<>();
+        FixedCapacityStackOfStrings s = new FixedCapacityStackOfStrings(100);
         while (!StdIn.isEmpty()) {
             String item = StdIn.readString();
             if (!item.equals("-"))
