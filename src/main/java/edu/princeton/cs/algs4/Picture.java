@@ -4,7 +4,7 @@
  *  Dependencies: none
  *
  *  Data type for manipulating individual pixels of an image. The original
- *  image can be read from a file in jpg, gif, or png format, or the
+ *  image can be read from a file in JPG, GIF, or PNG format, or the
  *  user can create a blank image of a given dimension. Includes methods for
  *  displaying the image in a window on the screen or saving to a file.
  *
@@ -13,8 +13,6 @@
  *  Remarks
  *  -------
  *   - pixel (x, y) is column x and row y, where (0, 0) is upper left
- *
- *   - see also GrayPicture.java for a grayscale version
  *
  ******************************************************************************/
 
@@ -81,6 +79,7 @@ import javax.swing.KeyStroke;
  *  <a href="https://introcs.cs.princeton.edu/31datatype">Section 3.1</a> of
  *  <i>Computer Science: An Interdisciplinary Approach</i>
  *  by Robert Sedgewick and Kevin Wayne.
+ *  See {@link GrayscalePicture} for a version that supports grayscale images.
  *
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
@@ -232,6 +231,7 @@ public final class Picture implements ActionListener {
             menuBar.add(menu);
             JMenuItem menuItem1 = new JMenuItem(" Save...   ");
             menuItem1.addActionListener(this);
+            // use getMenuShortcutKeyMaskEx() in Java 10 (getMenuShortcutKeyMask() deprecated)           
             menuItem1.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_S,
                                      Toolkit.getDefaultToolkit().getMenuShortcutKeyMask()));
             menu.add(menuItem1);
