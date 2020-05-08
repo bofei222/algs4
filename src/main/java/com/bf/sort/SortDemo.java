@@ -8,7 +8,7 @@ import java.util.List;
  * @author: bofei
  * @date: 2020-04-20 16:59
  **/
-public class DemoSort {
+public class SortDemo {
     public static void main(String[] args) {
         Integer[] arr = new Integer[]{5, 8, 6, 3, 9, 2, 1, 7};
         System.out.println(Arrays.toString(sort1(arr)));
@@ -30,6 +30,7 @@ public class DemoSort {
         return arr;
     }
 
+    // 原来这是 选择排序
     // 我的想法
     // 思路：找出最小的一个数放到最左边，然后从第二个数开始，找出第二小的数放到坐2，然后从第三个数开始，以此类推
     // 问题：这里面 有重复比较 吗
