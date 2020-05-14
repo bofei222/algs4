@@ -1,4 +1,4 @@
-package com.bf;
+package com.bf.hashmap;
 
 import java.util.HashMap;
 
