@@ -36,7 +36,11 @@ public class StringReplaceDemo {
                 arr[i + count] = arr[i];
             }
             if (blank == arr[i]) {
+                arr[i + count] = '0';
+                arr[i-1 + count] = '2';
+                arr[i -2 + count] = '%';
                 count -= 2;
+
             }
 
         }
