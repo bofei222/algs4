@@ -9,7 +9,7 @@ import java.util.HashMap;
  **/
 public class HashMapNodeOrder7 {
     public static void main(String[] args) {
-        HashMap<Object, Object> hashMap = new HashMap<>(2);
+        HashMap<Object, Object> hashMap = new HashMap<>(4);
         hashMap.put("AaAa", 1);
         hashMap.put("BBBB", 2);
         hashMap.put("AaBB", 3);
