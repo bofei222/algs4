@@ -16,7 +16,7 @@ public class MyQueue<T> {
 
     // 从表尾插入
     // 新元素 成为 表尾
-    public void add(T item) {
+    public void enq(T item) {
         Node newNode = new Node();
         newNode.item = item;
         if (null != first) {
@@ -29,7 +29,7 @@ public class MyQueue<T> {
     }
     // 从表头 移除
     // 将 最开始插入的元素移除
-    public T remove() {
+    public T deq() {
         Node oldFirst = first;
         first = first.next;
         n--;
@@ -48,12 +48,12 @@ public class MyQueue<T> {
 
     public static void main(String[] args) {
         MyQueue<Object> myQueue = new MyQueue<>();
-        myQueue.add("a");
-        myQueue.add("b");
-        myQueue.add("c");
+        myQueue.enq("a");
+        myQueue.enq("b");
+        myQueue.enq("c");
         System.out.println(myQueue.size());
-        System.out.println(myQueue.remove());
-        System.out.println(myQueue.remove());
-        System.out.println(myQueue.remove());
+        System.out.println(myQueue.deq());
+        System.out.println(myQueue.deq());
+        System.out.println(myQueue.deq());
     }
 }
