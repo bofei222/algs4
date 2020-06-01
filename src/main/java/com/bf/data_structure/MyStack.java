@@ -1,5 +1,9 @@
 package com.bf.data_structure;
 
+import java.util.ArrayList;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 /**
  * @description:
  * @author: bofei
@@ -21,7 +25,7 @@ public class MyStack<T> {
         last = newLast;
     }
 
-    // 将最近插入的元素删除
+    // 将最近插入的元素删除 (从)
     public Node<T> pop() {
         Node<T> oldLast = last;
         last = last.next;
