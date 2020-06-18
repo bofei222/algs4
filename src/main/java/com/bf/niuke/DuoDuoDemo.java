@@ -20,8 +20,8 @@ public class DuoDuoDemo {
     // 皮皮虾
     @Test
     public void test2() {
-        System.out.println(Arrays.toString(duoduo(new int[]{4,1,2,5,4})));;
-
+//        System.out.println(Arrays.toString(duoduo(new int[]{3,1,2,5})));;
+        System.out.println(Arrays.toString(duoduo(new int[]{3,926132445,546512853,453945346})));;
     }
 
     public int[] duoduo(int[] source) {
@@ -37,6 +37,9 @@ public class DuoDuoDemo {
     // 除几次2 能 把 长度 取到0
 
     public int duiShuFor2(int x) {
+        for (int i = 0; i < 100; i++) {
+
+        }
         if (x%2 != 0) x = x-1; // 如果是奇数，则次数与 x-1 相同
         int N =0;
         while ((x/2) != 0) {
