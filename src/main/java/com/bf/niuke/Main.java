@@ -19,7 +19,7 @@ public class Main {
         }
     }
 
-    public static void main4(String args[]) {
+    public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
         for (int i = 0; i < num; i++) {
@@ -27,7 +27,7 @@ public class Main {
         }
     }
 
-    public static void main(String args[]) {
+    public static void main4(String args[]) {
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
         for (int i = 0; i < num; i++) {
@@ -42,7 +42,8 @@ public class Main {
     // java 如何取对数
     // 除数是2的话，
     public static int duiShuFor2(int x) {
-        if (x <=1) return 1;
+        if (x ==1) return 1;
+        if (x == 2) return 2;
 //        if (x%2 != 0) x = x-1; // 如果是奇数，则次数与 x-1 相同
         int N = 0;
 
