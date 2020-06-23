@@ -20,8 +20,9 @@ public class DuoDuoDemo {
     // 皮皮虾
     @Test
     public void test2() {
-//        System.out.println(Arrays.toString(duoduo(new int[]{3,1,2,5})));;
-        System.out.println(Arrays.toString(duoduo(new int[]{3,926132445,546512853,453945346})));;
+        System.out.println(Arrays.toString(duoduo(new int[]{1,6})));;
+//        System.out.println(Arrays.toString(duoduo(new int[]{1,1,2,5})));;
+//        System.out.println(Arrays.toString(duoduo(new int[]{3,926132445,546512853,453945346})));;
     }
 
     public int[] duoduo(int[] source) {
