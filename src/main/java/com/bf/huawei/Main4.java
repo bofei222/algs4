@@ -7,6 +7,10 @@ import java.util.Scanner;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 // 寻找身高相近的小朋友
+
+// 输入 100 10
+//      95 96 97 98 99 100 101 102
+// 输出
 public class Main4 {
     static int[] arr = new int[201];
 

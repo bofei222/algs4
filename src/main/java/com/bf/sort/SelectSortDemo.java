@@ -8,7 +8,7 @@ import java.util.List;
  * @author: bofei
  * @date: 2020-04-20 16:59
  **/
-public class SortDemo {
+public class SelectSortDemo {
     public static void main(String[] args) {
         Integer[] arr = new Integer[]{5, 8, 6, 3, 9, 2, 1, 7};
         System.out.println(Arrays.toString(sort1(arr)));
