@@ -41,6 +41,7 @@ public class Solution739 {
         System.out.println(Arrays.toString(dailyTemperatures2(temperatures)));
 
     }
+    //  官方暴力
     public int[] dailyTemperatures2(int[] arr) {
         int length = arr.length;
         int[] ans = new int[length];
@@ -61,6 +62,7 @@ public class Solution739 {
         return ans;
     }
 
+    // 我的做法
     public int[] dailyTemperatures(int[] t) {
         int[] result = new int[t.length];
         for (int i = 0; i < t.length; i++) {
