@@ -1,4 +1,4 @@
-package com.bf.huawei;
+package com.bf.niuke.huawei;
 
 import java.util.Scanner;
 

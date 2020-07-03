@@ -1,10 +1,8 @@
-package com.bf.huawei;
+package com.bf.niuke.huawei;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
-import java.util.concurrent.CopyOnWriteArrayList;
 
 // 寻找身高相近的小朋友
 
